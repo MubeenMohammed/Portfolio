@@ -1,0 +1,60 @@
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    padding-left: 50px;
+    padding-top: 10px;
+    background-color: #222a35;
+    padding-bottom: 15px;
+}
+
+
+.middle-section {
+    margin-left: 40px;
+    margin-right: 40px;
+    flex: 100px;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 350px;
+}
+
+.github-button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    font-size: 13px;
+    background-color: #222a35;
+    color: white;
+    border: solid;
+    border-radius: 20px;
+    font-weight: bold;
+
+}
+
+.github-button:hover {
+    background-color: rgb(0, 255, 213);
+    border-color: rgb(0, 255, 213);
+    cursor: pointer;
+}
+
+.user-name {
+    font-size: 20px;
+    font-weight:500;
+}
+
+.middle-section a {
+    font-weight: 500;
+}
+
+.middle-section a:hover {
+    color: rgb(43,255,204);
+}
+
