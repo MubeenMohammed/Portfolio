@@ -4,9 +4,46 @@
     grid-template-columns: 1fr 1fr;
     padding-left: 150px;
     justify-items: center;
+    align-items: center;
 }
 
 .profile-picture {
     width: 200px;
     border-radius: 100px;
 }
+
+.resume-button {
+    padding: 15px 50px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px ;
+}
+
+.resume-button:hover {
+    padding: 16px 52px;
+}
+
+.hi-message, .name {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.position {
+    margin-bottom: 12px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.intro-par {
+    margin-bottom: 30px;
+    line-height: 25px;
+    font-size: 17px;
+    color: rgb(198, 180, 180);
+}
+
