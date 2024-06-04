@@ -1,5 +1,6 @@
 .intro-section {
     padding-top: 100px;
+    padding-bottom: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-left: 150px;
@@ -39,6 +40,9 @@
     font-size: 25px;
     font-weight: bold;
 }
+.position-name {
+    color: rgb(0, 255, 213) ;
+}
 
 .intro-par {
     margin-bottom: 30px;
@@ -46,4 +50,10 @@
     font-size: 17px;
     color: rgb(198, 180, 180);
 }
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+}
+
 
