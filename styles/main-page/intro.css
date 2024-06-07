@@ -1,11 +1,14 @@
 .intro-section {
-  padding-top: 100px;
-  padding-bottom: 1000px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-left: 150px;
-  justify-items: center;
-  align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    max-width: 550px;
+    margin-right: 80px;
 }
 
 .profile-picture {
@@ -17,10 +20,11 @@
   padding: 15px 50px;
   font-size: medium;
   font-weight: bold;
+  font-size: 19px;
   background-color: black;
   color: white;
   border-style: solid;
-  border-radius: 15px;
+  border-radius: 17px;
   cursor: pointer;
   box-shadow: 2px 2px 5px;
   transition: 500ms;
@@ -32,7 +36,7 @@
 
 .hi-message,
 .name {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
   margin-bottom: 12px;
 }
@@ -47,9 +51,9 @@
 }
 
 .intro-par {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   line-height: 25px;
-  font-size: 17px;
+  font-size: 20px;
   color: rgb(198, 180, 180);
 }
 
@@ -57,3 +61,5 @@
   display: flex;
   justify-content: center;
 }
+
+

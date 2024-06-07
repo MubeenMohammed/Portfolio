@@ -50,14 +50,14 @@
 
 .user-name {
     font-size: 20px;
-    font-weight:500;
+    font-weight: 700;
 }
 
 .middle-section a {
     font-weight: 500;
 }
 
-.middle-section a:hover {
+.middle-section a:hover , .left-section a:hover {
     color: rgb(43,255,204);
 }
 
