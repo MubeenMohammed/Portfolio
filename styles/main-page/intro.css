@@ -1,6 +1,6 @@
 .intro-section {
   margin-top: 150px;
-  margin-bottom: 150px;
+  margin-bottom: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,7 +32,7 @@
 }
 
 .resume-button:hover {
-  transform: translateY(-20px);
+  transform: translateY(-2px);
   box-shadow: 0 15px 30px rgba(130, 125, 125, 0.856);
 }
 
