@@ -31,7 +31,7 @@
     cursor: pointer;
 }
 
-.education-box {
+.education-box, .experience-box {
     display: flex;
     flex-direction: column;
     border: 0.1px solid rgb(43, 255, 204);
@@ -45,24 +45,24 @@
     margin-bottom: 20px;
 }
 
-.institution-box {
+.institution-box, .organization-box {
     display: flex;
     gap: 20px;
     margin-bottom: 20px;
 }
 
-.institution-name {
+.institution-name, .organization-name {
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 3px;
 }
 
-.degree-name, .degree-date {
+.degree-name, .degree-date, .position-name, .job-period {
     color: rgb(198, 180, 180);
     margin-bottom: 3px;
 }
 
-.institution-logo {
+.institution-logo, .company-logo {
     width: 60px;
 }
 
@@ -70,11 +70,30 @@
     margin-bottom: 12px;
 }
 
-.related-coursework {
+.related-coursework, .job-description li {
     color: rgb(198, 180, 180) ;
 }
 
 .education-box span {
     color: rgb(43, 255, 204);
     font-weight: bold;   
+}
+
+/* Below starts experience styling */
+
+.experience-box {
+    border-color:rgb(69, 52, 220);
+}
+
+.company-logo {
+    width: 80px;
+    border-radius: 80px;
+}
+
+.organization-box {
+    margin-bottom: 0px;
+}
+
+.job-description ul {
+    margin-bottom: 0px;
 }
