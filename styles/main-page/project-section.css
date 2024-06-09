@@ -1,0 +1,91 @@
+.project-section {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+    gap: 20px;
+}
+
+.project-heading {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.section-description {
+    width: 550px;
+    text-align: center;
+    color: rgb(198, 180, 180);
+    margin-bottom: 50px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+}
+
+.project-box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+}
+
+
+.project-box {
+    border: 0.1px solid rgb(34, 106, 89);
+    box-shadow: rgb(17, 135, 108) 1px 1px 7px 1px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.8s ease;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(23, 23, 33);
+}
+
+.project-box:hover {
+    transform: translateY(-10px);
+    box-shadow: none;
+    border: none;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.project-image {
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.skills-used {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.skill {
+    color: rgb(93, 212, 184);
+    background-color: rgb(48, 48, 63);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.project-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.project-description {
+    text-align: center;
+    color: grey;
+}

@@ -12,6 +12,7 @@
     padding-top: 10px;
     background-color: black;
     padding-bottom: 15px;
+    z-index: 1000;
 }
 
 
