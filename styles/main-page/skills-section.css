@@ -1,3 +1,10 @@
+.skill-section-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+
 .skills-section,
 .skills-header-section {
   display: flex;
@@ -8,6 +15,8 @@
 .skills-section {
     max-width: 1760px;
 }
+
+
 .skills-header-section {
   margin-bottom: 40px;
   max-width: 600px;
@@ -34,22 +43,29 @@
 }
 
 .skill-box {
+  background-color: rgb(0, 25, 25);
   display: flex;
   flex-direction: column;
   border: 0.1px solid rgb(43, 255, 204);
-  box-shadow: rgba(23, 93, 230, 0.15) 0px 4px 24px;
+  box-shadow: rgba(191, 196, 39, 0.15) 2px 4px 24px;
   border-radius: 16px;
   max-width: 500px;
   width: 100%;
   padding: 18px 36px;
   gap: 17px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-box:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
 .skill-type {
   text-align: center;
   font-size: 28px;
   font-weight: bold;
-  color: rgb(198, 180, 180);
+  color: white;
   margin-bottom: 20px;
 }
 

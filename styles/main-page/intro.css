@@ -1,19 +1,20 @@
 .intro-section {
-    margin-top: 150px;
-    margin-bottom: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .info {
-    max-width: 550px;
-    margin-right: 80px;
+  max-width: 550px;
+  margin-right: 80px;
 }
 
 .profile-picture {
   width: 200px;
   border-radius: 100px;
+  box-shadow: -10px -10px 100px rgb(43, 255, 204);
 }
 
 .resume-button {
@@ -27,11 +28,12 @@
   border-radius: 17px;
   cursor: pointer;
   box-shadow: 2px 2px 5px;
-  transition: 500ms;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .resume-button:hover {
-  padding: 16px 52px;
+  transform: translateY(-20px);
+  box-shadow: 0 15px 30px rgba(130, 125, 125, 0.856);
 }
 
 .hi-message,
@@ -61,5 +63,3 @@
   display: flex;
   justify-content: center;
 }
-
-
