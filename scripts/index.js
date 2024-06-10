@@ -141,12 +141,18 @@ educationButtonElement.addEventListener("click", () => {
         `;
 });
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-      e.preventDefault();
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
 
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-      });
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth",
+    });
+  });
+});
+
+document.querySelector(".js-send-button").addEventListener("click", () => {
+  document.querySelectorAll(".js-input").forEach((inputElement) => {
+    inputElement.value = "";
   });
 });
