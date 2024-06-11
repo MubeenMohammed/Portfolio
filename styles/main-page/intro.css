@@ -48,8 +48,23 @@
   font-size: 25px;
   font-weight: bold;
 }
-.position-name {
+.changing-position-name {
   color: rgb(0, 255, 213);
+  overflow: hidden;
+  white-space: nowrap;
+  padding-left: 7px;
+  border-right: 4px solid ;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(0, 255, 213) }
 }
 
 .intro-par {
@@ -62,4 +77,13 @@
 .skills-container {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .intro-section {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+  
 }
