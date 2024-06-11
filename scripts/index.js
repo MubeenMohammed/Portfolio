@@ -156,3 +156,15 @@ document.querySelector(".js-send-button").addEventListener("click", () => {
     inputElement.value = "";
   });
 });
+
+
+const positionElement = document.querySelector(".changing-position-name");
+const positions = ['Web Developer', 'Mobile App Developer', 'Backend Developer', 'Fullstack Developer'];
+
+let currentIndex = 0;
+function changeText() {
+  positionElement.innerHTML = positions[currentIndex];
+  currentIndex = (currentIndex +1 ) % positions.length;
+}
+
+setInterval(changeText, 500);
