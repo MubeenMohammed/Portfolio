@@ -157,30 +157,35 @@ document.querySelector(".js-send-button").addEventListener("click", () => {
   });
 });
 
-
 const positionElement = document.querySelector(".changing-position-name");
-const positions = ['Web Developer', 'Mobile App Developer', 'Backend Developer', 'Fullstack Developer'];
+const positions = [
+  "Web Developer",
+  "Mobile App Developer",
+  "Backend Developer",
+  "Fullstack Developer",
+  "IOS Developer",
+];
 
 let currentIndex = 0;
 
 function typeWriter(text, i, fnCallback) {
   if (i < text.length) {
     positionElement.innerHTML = text.substring(0, i + 1);
-    setTimeout(function() {
+    setTimeout(function () {
       typeWriter(text, i + 1, fnCallback);
     }, 100);
-  } else if (typeof fnCallback === 'function') {
+  } else if (typeof fnCallback === "function") {
     setTimeout(fnCallback, 2000);
   }
 }
 
 function startAnimation(i) {
-  if (typeof positions[i] == 'undefined') {
-    setTimeout(function() {
+  if (typeof positions[i] == "undefined") {
+    setTimeout(function () {
       startAnimation(0);
     }, 2000);
   } else if (i < positions.length) {
-    typeWriter(positions[i], 0, function() {
+    typeWriter(positions[i], 0, function () {
       startAnimation(i + 1);
     });
   }
