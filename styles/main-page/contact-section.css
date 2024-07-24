@@ -77,3 +77,9 @@
 .send-button:hover {
     transform: translateY(-1px);
 }
+
+@media (max-width: 600px) {
+    .contact-me-box input {
+        width: 280px;
+    }
+}

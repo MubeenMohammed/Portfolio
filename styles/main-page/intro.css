@@ -52,18 +52,27 @@
   color: rgb(0, 255, 213);
   overflow: hidden;
   white-space: nowrap;
-  border-right: 4px solid ;
+  border-right: 4px solid;
   animation: blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: rgb(0, 255, 213) }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(0, 255, 213);
+  }
 }
 
 .intro-par {
@@ -89,10 +98,21 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+  }
+
+  .hi-message,
+  .name {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .position {
+    font-size: 22px;
   }
 
   .profile-image-container {
     order: 1;
   }
-  
 }

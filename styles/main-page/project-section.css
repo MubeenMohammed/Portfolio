@@ -90,3 +90,9 @@
     text-align: center;
     color: grey;
 }
+
+@media (max-width: 600px) {
+    .section-description {
+        width: auto;
+    }
+}

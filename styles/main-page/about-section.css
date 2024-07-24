@@ -97,3 +97,9 @@
 .job-description ul {
     margin-bottom: 0px;
 }
+
+@media (max-width: 600px) {
+    .institution-name, .organization-name {
+        font-size: 17px;
+    }
+}
