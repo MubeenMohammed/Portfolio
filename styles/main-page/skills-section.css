@@ -95,13 +95,14 @@
   width: 35px;
 }
 
-@media (max-width: 600) {
+@media (max-width: 600px) {
   .programming-box {
-    display: flex;
-    border: 0.1px solid rgb(198, 180, 180);
-    padding: 15px 18px;
-    align-items: center;
-    gap: 10px;
-    border-radius: 15px;
+    padding: 10px 12px;
+  }
+  .programming-language-icon {
+    width: 20px;
+  } 
+  .language-name {
+    font-size: 17px;
   }
 }
