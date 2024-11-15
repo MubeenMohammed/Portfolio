@@ -19,6 +19,32 @@ experienceButtonElement.addEventListener("click", () => {
             <div class="organization-box">
               <img
                 class="company-logo"
+                src="resources/company-logos/coveo_logo.png"
+              />
+              <div class="title-box">
+                <div class="organization-name">Coveo</div>
+                <div class="position-name">Software Developer Intern, Hybrid</div>
+                <div class="job-period">Sep 2024 - Dec 2024</div>
+              </div>
+            </div>
+            <div class="job-description">
+              <ul>
+                <li>
+                  Built over 15 custom demos showcasing Coveo’s search solutions by employing web scraping, data cleaning, and query pipelines, tailored to client needs. Leveraged JavaScript, TypeScript, and React to develop dynamic demo interfaces that increased client engagement
+                </li>
+                <li>
+                  Designed new query pipeline rules to improve search accuracy by 35%, focusing on aligning search results closely with user intent. This enhancement demonstrated Coveo’s ability to deliver precise, relevant information, leading to a more compelling user experience.
+                </li>
+                <li>
+                  Created a specialized tool for Solution Engineers using API integrations to automate data collection and configuration for the Relative Generative Answering, which reduced troubleshooting time by 50% and improved answer accuracy by over 30% for natural language queries.
+                </li>
+              </ul>
+            </div>
+          </div>      
+          <div class="experience-box">
+            <div class="organization-box">
+              <img
+                class="company-logo"
                 src="resources/company-logos/ticket-sphere.png"
               />
               <div class="title-box">
